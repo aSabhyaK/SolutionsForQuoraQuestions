@@ -14,7 +14,8 @@ public class FactorialBigIntegerArrayApproach {
 	
 	private static String factorial(int n)
 	{
-		mag[0] = 1;
+	    mag[0] = 1;
+	    
 	    int max_index = 1;
 	    StringBuilder stringBuilder = new StringBuilder();
 	    
@@ -30,8 +31,8 @@ public class FactorialBigIntegerArrayApproach {
 	private static int multiply(int x, int size)
 	{
 		int carry = 0, product = -1;
-
-	    for (int i = 0; i < size; ++ i)
+		
+		for (int i = 0; i < size; ++ i)
 	    {
 	        product = mag[i] * x + carry;
 	        mag[i] = product % 10;  
