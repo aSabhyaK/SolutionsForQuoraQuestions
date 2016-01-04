@@ -23,10 +23,10 @@
     	    for(char c: one.toCharArray())
     	    	array[c] ++;
     		
-        	for(char c: two.toCharArray())
+            for(char c: two.toCharArray())
         		array[c] --;
     		
-        	for(int i = 0; i < 256; ++ i)
+            for(int i = 0; i < 256; ++ i)
         		if(array[i] != 0)
         			return false;
     		
