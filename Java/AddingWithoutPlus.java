@@ -25,12 +25,12 @@ public class AddingWithoutPlus {
 		
 		while (q != 0)
 		{
-            carry = (p & q) ;
-            p ^= q;
-            q = carry << 1;
-        }
+            		carry = (p & q) ;
+            		p ^= q;
+            		q = carry << 1;
+		}
 		
-        return p;
+        	return p;
 	}
 	
 	private int addUsingBitLevelManipulationRecursively(int p, int q)
