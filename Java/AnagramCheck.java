@@ -24,11 +24,11 @@
     	    	array[c] ++;
     		
             for(char c: two.toCharArray())
-        		array[c] --;
+                array[c] --;
     		
             for(int i = 0; i < 256; ++ i)
-        		if(array[i] != 0)
-        			return false;
+                if(array[i] != 0)
+                    return false;
     		
     	    return true;
         }
