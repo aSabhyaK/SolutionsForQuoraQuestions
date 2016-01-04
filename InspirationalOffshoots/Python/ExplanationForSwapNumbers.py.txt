@@ -1,5 +1,7 @@
 Taken from here: http://stackoverflow.com/a/9071437
 
+Explanation for the logic of swapping two numbers using XOR:
+
 I find this a bit tricky to explain, but here's an attempt; think bit by bit addition, there are only 4 cases;
 
 0+0=0 
